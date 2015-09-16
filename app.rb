@@ -24,4 +24,14 @@ get '/test' do
 	erb: test
 end
 
-ka-bi-
+get '/home' do
+    erb: home
+end
+
+get '/detail:id' do
+    erb: home
+end
+
+get '/form' do
+    erb: home
+end
