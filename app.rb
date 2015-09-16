@@ -28,10 +28,10 @@ get '/home' do
     erb: home
 end
 
-get '/detail:id' do
-    erb: home
+get '/topic:id' do
+    erb: topic
 end
 
 get '/form' do
-    erb: home
+    erb: form
 end
